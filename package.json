@@ -1,0 +1,22 @@
+{
+  "name": "employee_tracker_posgres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "build": "tsc",
+    "start:prod": "node dist/server.js"
+  },
+  "dependencies": {
+    "inquirer": "^12.4.2",
+    "pg": "^8.13.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^22.13.9",
+    "@types/pg": "^8.11.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
